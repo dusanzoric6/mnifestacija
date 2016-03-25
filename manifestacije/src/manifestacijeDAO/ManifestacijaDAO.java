@@ -75,7 +75,7 @@ public class ManifestacijaDAO {
 		getAll(conn);
 		System.out.println("Odaberi ID manifestaije koju zelis da promenis ");
 		int idM = ScannerWrapper.ocitajCeoBroj();
-		System.out.println("Odaberi novi naziv za manifestaciju ");
+		System.out.println("Odaberi novo ime za manifestaciju ");
 		String noviNaziv = ScannerWrapper.ocitajTekst();
 		System.out.println("Unesi br posetilaca");
 		int brP = ScannerWrapper.ocitajCeoBroj();
